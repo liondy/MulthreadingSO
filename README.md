@@ -1,5 +1,5 @@
 # MulthreadingSO
-Aplikasi ini merupakan sebuah aplikasi untuk menangani aplikasi (GUI), yang memanfaatkan multithreading dan menangani persoalan critical region dengan salah satu teknik mutex
+Aplikasi ini merupakan sebuah aplikasi (GUI), yang memanfaatkan multithreading dan menangani persoalan critical region dengan salah satu teknik mutex
 
 Spesifikasi program (JAVA) : 
 
@@ -11,13 +11,17 @@ Spesifikasi program (JAVA) :
 
 # Class Editor (Main) : 
 
+Berisi tampilan pada saat program di run
+
 start() --> untuk menjalankan aplikasi
 
 setTitle() --> menambahkan judul aplikasi
 
-addImage() --> menampilkan logo Informatika Unpar
+addImage() --> menampilkan logo
 
 # Class FXMLDocumentController (Kode Program Aplikasi) : 
+
+Berisi logika pemrograman untuk mendapatkan text yang diketik dan menampilkan hasilnya
 
 typed() --> untuk menghitung jumlah karakter, jumlah word, jumlah kalimat dengan menggunakan Thread.
 Method ini menggunakan synchronized() untuk menangani terjadinya race condition
